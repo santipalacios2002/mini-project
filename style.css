@@ -1,10 +1,14 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #e8cebf;
     margin: 0;
     padding:0;
 }
-
+nav {
+    background-color: #266150;
+    text-align: right;
+    padding: 5px;
+    border-bottom: #e8cebf solid 8px;
+}
 li {
     display: inline;
     text-align: right;
@@ -13,9 +17,27 @@ li {
     padding-right: 10px;
 }
 
-ul {
-    background-color: #266150;
-    text-align: right;
-    margin: 0;
-    padding: 10px;
+a {
+    color: white;
+    text-decoration: none;
 }
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: #266150;
+    padding: 5px;
+    border-bottom: black solid 8px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+
+}
+.section-1 {
+    text-align: center;
+}
+
+.section-2 {
+    text-align: center;
+}
+
