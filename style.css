@@ -1,5 +1,6 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #4f4846;
     margin: 0;
     padding:0;
 }
@@ -22,12 +23,31 @@ a {
     text-decoration: none;
 }
 
+h2 {
+    font-size: 15px;
+}
+input {
+    margin: 0;
+    width: 60%;
+    height: 7px;
+    border: black solid 1px;
+
+}
+label {
+    font-size: 12px;
+}
+button {
+    padding: 5px 15px 5px 15px;
+    font-size: 5px;
+    background-color: #4f4846;
+    color: white;
+}
 footer {
     text-align: center;
     color: white;
     background-color: #266150;
     padding: 5px;
-    border-bottom: black solid 8px;
+    border-bottom: #383737 solid 8px;
     position: fixed;
     bottom: 0px;
     width: 100%;
@@ -35,9 +55,28 @@ footer {
 }
 .section-1 {
     text-align: center;
+    background-color: #fdf8f5;
+    padding: 1px; /*Only addded so I can touch each block, check alter how to do this better */
+
 }
 
 .section-2 {
     text-align: center;
+    background-color: #e8cebf;
+    padding: 1px;
+    border-top: #ddaf94 solid 3px;
+}
+
+.section-1-text {
+    font-size: 10px;
+}
+#contact-block {
+    border: #ddaf94 solid 3px;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 
