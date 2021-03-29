@@ -51,8 +51,8 @@ footer {
     position: fixed;
     bottom: 0px;
     width: 100%;
-
 }
+
 .section-1 {
     text-align: center;
     background-color: #fdf8f5;
@@ -69,6 +69,59 @@ footer {
 
 .section-1-text {
     font-size: 10px;
+}
+
+.block1 {
+    background-color: #504846;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.block2 {
+    background-color: #504846;
+    height: 172px;
+    width: 172px;
+    border: solid 4px #e8cebf;
+    position: absolute;
+    top: 10px;
+    left:10px;
+} 
+
+.block3 {
+    background-color: #504846;
+    height: 144px;
+    width: 144px;
+    border: solid 4px #26614f;
+    position: absolute;
+    top: 10px;
+    left:10px;
+}
+
+.block4 {
+    background-color: #504846;
+    height: 116px;
+    width: 116px;
+    border: solid 4px #ddaf95;
+    position: absolute;
+    top: 10px;
+    left:10px;    
+}
+
+
+.block5 {
+    color: #e8cebf;
+    background-color: #504846;
+    width: 50px;
+    height: 25px;
+    border: solid #444444 2px;
+    word-wrap: break-word;
+    font-size: 12px;
+    position: absolute;
+    top: 43px;
+    left: 31px;
+
 }
 #contact-block {
     border: #ddaf94 solid 3px;
