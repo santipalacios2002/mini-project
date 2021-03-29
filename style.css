@@ -48,9 +48,9 @@ footer {
     background-color: #266150;
     padding: 5px;
     border-bottom: #383737 solid 8px;
-    position: fixed;
+    /* position: fixed;
     bottom: 0px;
-    width: 100%;
+    width: 100%; */
 }
 
 .section-1 {
